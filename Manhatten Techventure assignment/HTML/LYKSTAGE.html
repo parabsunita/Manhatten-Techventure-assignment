@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="C:\Users\lenovo\Desktop\Manhatten Techventure assignment\CSS\LYKSTAGE.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+
+<body>
+    <!--header-->
+    <header class=" headerinfo p-3 d-flex flex-wrap w-100  justify-content-between fixed-top">
+        <!--Logo-->
+        <a href="" class="mr-auto"> <img src="https://www.lykstage.com/assets/newEvent/images/logo.png" alt=""></a>
+        <!--add button-->
+        <div class="dropdown position-static  ">
+            <button class="btn bg-transparent " type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <i class="material-icons mr-5 addcontent one">add_circle_outline</i>
+            </button>
+            <div class="dropdown-menu mt-0 w-100    shadow border-outline-success  " id="dropdownmenu" aria-labelledby="navbarDropdown">
+                <button class="float-right bg-transparent border-0">  <i class="material-icons   " id="close">close</i></button>
+                <div class="d-flex justify-content-center   ">
+                    <!--create event-->
+                    <div class="m-5" style="color: black;"><i class="material-icons     " style="font-size:48px ;">event</i>
+                        <p style="font-size: 16px; align-items: center;"> Create Event </p>
+                        <hr>
+                        <p style="font-size: 12px; align-items: center;"> Live Event</p>
+                        <hr>
+                        <p style="font-size: 12px; align-items: center;"> non-live Event</p>
+                    </div>
+                    <div class="m-5" style="color: black;"><i class="material-icons     " style="font-size:48px ;">ondemand_video</i>
+                        <p style="font-size: 16px; align-items: center; "> Upload video </p>
+                        <hr>
+                        <p style="font-size: 12px; align-items: center;"> Upload video</p>
+                        <hr>
+
+                    </div>
+
+                    <div class="m-5" style="color: black;"><i class="material-icons     " style="font-size:48px ;">ondemand_video</i>
+                        <p style="font-size: 16px; align-items: center; "> Upload video </p>
+                        <hr>
+                        <p style="font-size: 12px; align-items: center;"> Upload video</p>
+                        <hr>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--user name-->
+        <input type="text" class=" username bg-transparent border-0 text-danger" value="user name">
+        <!--profile photo-->
+        <div class=" border-dark bg-light rounded-circle mr-4 profile"></div>
+        <!--menu bar-->
+        <i class="material-icons transformmenu"> sort</i>
+    </header>
+    <!--main-->
+    <main class="container " style="margin:80px ;height:2000px">
+        <!-- flexbox for card-->
+        <div class="d-flex flex-wrap flex-fill justify-content-between">
+            <!--card -->
+            <div class="card img-fluid d-flex border-dark cardcontainer bg-secondary justify-content-between ">
+                <!--card img overlay-->
+                <div class="card-img-overlay d-flex flex-wrap flex-column justify-content-between mr-4">
+                    <!--creators details-->
+                    <div class="d-flex flex-wrap ">
+                        <!-- creator profile photo-->
+                        <div class="profilecreator border-dark bg-light rounded-circle mr-1"> </div>
+                        <!--creator name-->
+                        <input type="text" name="creator name" id="" value="creator name" class="creatorname text-light bg-transparent border-0">
+                    </div>
+                    <!--content details-->
+                    <div class="d-flex flex-wrap mt-auto justify-content-between">
+                        <!--topic of content-->
+                        <input type="text" value="topic of the video  " class="creatorname text-light border-0 bg-transparent">
+                        <!--tagged people-->
+                        <i class="material-icons icon ">person_outline</i>
+                        <!--surrounded sound-->
+                        <i class="material-icons icon ">surround_sound</i>
+                        <div class="d-flex flex-wrap justify-content-between w-100 ">
+                            <!--like-->
+                            <i class="material-icons icon">favorite_border</i>
+                            <!--comment-->
+                            <i class="material-icons icon">textsms</i>
+                            <!--view-->
+                            <i class="material-icons icon">remove_red_eye</i>
+                            <!--share-->
+                            <i class="material-icons icon">share</i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="card img-fluid d-flex border-dark cardcontainer bg-secondary">
+                <!--card img overlay-->
+                <div class="card-img-overlay d-flex flex-wrap flex-column justify-content-between mr-4">
+                    <!--creators details-->
+                    <div class="d-flex flex-wrap ">
+                        <!-- creator profile photo-->
+                        <div class="profilecreator border-dark bg-light rounded-circle mr-1"> </div>
+                        <!--creator name-->
+                        <input type="text" name="creator name" id="" value="creator name" class="creatorname text-light bg-transparent border-0">
+                    </div>
+                    <!--content details-->
+                    <div class="d-flex flex-wrap mt-auto justify-content-between">
+                        <!--topic of content-->
+                        <input type="text" value="topic of the video  " class="creatorname text-light border-0 bg-transparent">
+                        <!--tagged people-->
+                        <i class="material-icons icon ">person_outline</i>
+                        <!--surrounded sound-->
+                        <i class="material-icons icon ">surround_sound</i>
+                        <div class="d-flex flex-wrap justify-content-between w-100 ">
+                            <!--like-->
+                            <i class="material-icons icon">favorite_border</i>
+                            <!--comment-->
+                            <i class="material-icons icon">textsms</i>
+                            <!--view-->
+                            <i class="material-icons icon">remove_red_eye</i>
+                            <!--share-->
+                            <i class="material-icons icon">share</i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card img-fluid d-flex border-dark cardcontainer bg-secondary">
+                <!--card img overlay-->
+                <div class="card-img-overlay d-flex flex-wrap flex-column justify-content-between mr-4">
+                    <!--creators details-->
+                    <div class="d-flex flex-wrap ">
+                        <!-- creator profile photo-->
+                        <div class="profilecreator border-dark bg-light rounded-circle mr-1"> </div>
+                        <!--creator name-->
+                        <input type="text" name="creator name" id="" value="creator name" class="creatorname text-light bg-transparent border-0">
+                    </div>
+                    <!--content details-->
+                    <div class="d-flex flex-wrap mt-auto justify-content-between">
+                        <!--topic of content-->
+                        <input type="text" value="topic of the video  " class="creatorname text-light border-0 bg-transparent">
+                        <!--tagged people-->
+                        <i class="material-icons icon ">person_outline</i>
+                        <!--surrounded sound-->
+                        <i class="material-icons icon ">surround_sound</i>
+                        <div class="d-flex flex-wrap justify-content-between w-100 ">
+                            <!--like-->
+                            <i class="material-icons icon">favorite_border</i>
+                            <!--comment-->
+                            <i class="material-icons icon">textsms</i>
+                            <!--view-->
+                            <i class="material-icons icon">remove_red_eye</i>
+                            <!--share-->
+                            <i class="material-icons icon">share</i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card img-fluid d-flex border-dark cardcontainer bg-secondary">
+                <!--card img overlay-->
+                <div class="card-img-overlay d-flex flex-wrap flex-column justify-content-between mr-4">
+                    <!--creators details-->
+                    <div class="d-flex flex-wrap ">
+                        <!-- creator profile photo-->
+                        <div class="profilecreator border-dark bg-light rounded-circle mr-1"> </div>
+                        <!--creator name-->
+                        <input type="text" name="creator name" id="" value="creator name" class="creatorname text-light bg-transparent border-0">
+                    </div>
+                    <!--content details-->
+                    <div class="d-flex flex-wrap mt-auto justify-content-between">
+                        <!--topic of content-->
+                        <input type="text" value="topic of the video  " class="creatorname text-light border-0 bg-transparent">
+                        <!--tagged people-->
+                        <i class="material-icons icon ">person_outline</i>
+                        <!--surrounded sound-->
+                        <i class="material-icons icon ">surround_sound</i>
+                        <div class="d-flex flex-wrap justify-content-between w-100 ">
+                            <!--like-->
+                            <i class="material-icons icon">favorite_border</i>
+                            <!--comment-->
+                            <i class="material-icons icon">textsms</i>
+                            <!--view-->
+                            <i class="material-icons icon">remove_red_eye</i>
+                            <!--share-->
+                            <i class="material-icons icon">share</i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card img-fluid d-flex border-dark cardcontainer bg-secondary">
+                <!--card img overlay-->
+                <div class="card-img-overlay d-flex flex-wrap flex-column justify-content-between mr-4">
+                    <!--creators details-->
+                    <div class="d-flex flex-wrap ">
+                        <!-- creator profile photo-->
+                        <div class="profilecreator border-dark bg-light rounded-circle mr-1"> </div>
+                        <!--creator name-->
+                        <input type="text" name="creator name" id="" value="creator name" class="creatorname text-light bg-transparent border-0">
+                    </div>
+                    <!--content details-->
+                    <div class="d-flex flex-wrap mt-auto justify-content-between">
+                        <!--topic of content-->
+                        <input type="text" value="topic of the video  " class="creatorname text-light border-0 bg-transparent">
+                        <!--tagged people-->
+                        <i class="material-icons icon ">person_outline</i>
+                        <!--surrounded sound-->
+                        <i class="material-icons icon ">surround_sound</i>
+                        <div class="d-flex flex-wrap justify-content-between w-100 ">
+                            <!--like-->
+                            <i class="material-icons icon">favorite_border</i>
+                            <!--comment-->
+                            <i class="material-icons icon">textsms</i>
+                            <!--view-->
+                            <i class="material-icons icon">remove_red_eye</i>
+                            <!--share-->
+                            <i class="material-icons icon">share</i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card img-fluid d-flex border-dark cardcontainer bg-secondary">
+                <!--card img overlay-->
+                <div class="card-img-overlay d-flex flex-wrap flex-column justify-content-between mr-4">
+                    <!--creators details-->
+                    <div class="d-flex flex-wrap ">
+                        <!-- creator profile photo-->
+                        <div class="profilecreator border-dark bg-light rounded-circle mr-1"> </div>
+                        <!--creator name-->
+                        <input type="text" name="creator name" id="" value="creator name" class="creatorname text-light bg-transparent border-0">
+                    </div>
+                    <!--content details-->
+                    <div class="d-flex flex-wrap mt-auto justify-content-between">
+                        <!--topic of content-->
+                        <input type="text" value="topic of the video  " class="creatorname text-light border-0 bg-transparent">
+                        <!--tagged people-->
+                        <i class="material-icons icon ">person_outline</i>
+                        <!--surrounded sound-->
+                        <i class="material-icons icon ">surround_sound</i>
+                        <div class="d-flex flex-wrap justify-content-between w-100 ">
+                            <!--like-->
+                            <i class="material-icons icon">favorite_border</i>
+                            <!--comment-->
+                            <i class="material-icons icon">textsms</i>
+                            <!--view-->
+                            <i class="material-icons icon">remove_red_eye</i>
+                            <!--share-->
+                            <i class="material-icons icon">share</i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card img-fluid d-flex border-dark cardcontainer bg-secondary">
+                <!--card img overlay-->
+                <div class="card-img-overlay d-flex flex-wrap flex-column justify-content-between mr-4">
+                    <!--creators details-->
+                    <div class="d-flex flex-wrap ">
+                        <!-- creator profile photo-->
+                        <div class="profilecreator border-dark bg-light rounded-circle mr-1"> </div>
+                        <!--creator name-->
+                        <input type="text" name="creator name" id="" value="creator name" class="creatorname text-light bg-transparent border-0">
+                    </div>
+                    <!--content details-->
+                    <div class="d-flex flex-wrap mt-auto justify-content-between">
+                        <!--topic of content-->
+                        <input type="text" value="topic of the video  " class="creatorname text-light border-0 bg-transparent">
+                        <!--tagged people-->
+                        <i class="material-icons icon ">person_outline</i>
+                        <!--surrounded sound-->
+                        <i class="material-icons icon ">surround_sound</i>
+                        <div class="d-flex flex-wrap justify-content-between w-100 ">
+                            <!--like-->
+                            <i class="material-icons icon">favorite_border</i>
+                            <!--comment-->
+                            <i class="material-icons icon">textsms</i>
+                            <!--view-->
+                            <i class="material-icons icon">remove_red_eye</i>
+                            <!--share-->
+                            <i class="material-icons icon">share</i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card img-fluid d-flex border-dark cardcontainer bg-secondary">
+                <!--card img overlay-->
+                <div class="card-img-overlay d-flex flex-wrap flex-column justify-content-between mr-4">
+                    <!--creators details-->
+                    <div class="d-flex flex-wrap ">
+                        <!-- creator profile photo-->
+                        <div class="profilecreator border-dark bg-light rounded-circle mr-1"> </div>
+                        <!--creator name-->
+                        <input type="text" name="creator name" id="" value="creator name" class="creatorname text-light bg-transparent border-0">
+                    </div>
+                    <!--content details-->
+                    <div class="d-flex flex-wrap mt-auto justify-content-between">
+                        <!--topic of content-->
+                        <input type="text" value="topic of the video  " class="creatorname text-light border-0 bg-transparent">
+                        <!--tagged people-->
+                        <i class="material-icons icon ">person_outline</i>
+                        <!--surrounded sound-->
+                        <i class="material-icons icon ">surround_sound</i>
+                        <div class="d-flex flex-wrap justify-content-between w-100 ">
+                            <!--like-->
+                            <i class="material-icons icon">favorite_border</i>
+                            <!--comment-->
+                            <i class="material-icons icon">textsms</i>
+                            <!--view-->
+                            <i class="material-icons icon">remove_red_eye</i>
+                            <!--share-->
+                            <i class="material-icons icon">share</i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card img-fluid d-flex border-dark cardcontainer bg-secondary">
+                <!--card img overlay-->
+                <div class="card-img-overlay d-flex flex-wrap flex-column justify-content-between mr-4">
+                    <!--creators details-->
+                    <div class="d-flex flex-wrap ">
+                        <!-- creator profile photo-->
+                        <div class="profilecreator border-dark bg-light rounded-circle mr-1"> </div>
+                        <!--creator name-->
+                        <input type="text" name="creator name" id="" value="creator name" class="creatorname text-light bg-transparent border-0">
+                    </div>
+                    <!--content details-->
+                    <div class="d-flex flex-wrap mt-auto justify-content-between">
+                        <!--topic of content-->
+                        <input type="text" value="topic of the video  " class="creatorname text-light border-0 bg-transparent">
+                        <!--tagged people-->
+                        <i class="material-icons icon ">person_outline</i>
+                        <!--surrounded sound-->
+                        <i class="material-icons icon ">surround_sound</i>
+                        <div class="d-flex flex-wrap justify-content-between w-100 ">
+                            <!--like-->
+                            <i class="material-icons icon">favorite_border</i>
+                            <!--comment-->
+                            <i class="material-icons icon">textsms</i>
+                            <!--view-->
+                            <i class="material-icons icon">remove_red_eye</i>
+                            <!--share-->
+                            <i class="material-icons icon">share</i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card img-fluid d-flex border-dark cardcontainer bg-secondary">
+                <!--card img overlay-->
+                <div class="card-img-overlay d-flex flex-wrap flex-column justify-content-between mr-4">
+                    <!--creators details-->
+                    <div class="d-flex flex-wrap ">
+                        <!-- creator profile photo-->
+                        <div class="profilecreator border-dark bg-light rounded-circle mr-1"> </div>
+                        <!--creator name-->
+                        <input type="text" name="creator name" id="" value="creator name" class="creatorname text-light bg-transparent border-0">
+                    </div>
+                    <!--content details-->
+                    <div class="d-flex flex-wrap mt-auto justify-content-between">
+                        <!--topic of content-->
+                        <input type="text" value="topic of the video  " class="creatorname text-light border-0 bg-transparent">
+                        <!--tagged people-->
+                        <i class="material-icons icon ">person_outline</i>
+                        <!--surrounded sound-->
+                        <i class="material-icons icon ">surround_sound</i>
+                        <div class="d-flex flex-wrap justify-content-between w-100 ">
+                            <!--like-->
+                            <i class="material-icons icon">favorite_border</i>
+                            <!--comment-->
+                            <i class="material-icons icon">textsms</i>
+                            <!--view-->
+                            <i class="material-icons icon">remove_red_eye</i>
+                            <!--share-->
+                            <i class="material-icons icon">share</i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card img-fluid d-flex border-dark cardcontainer bg-secondary">
+                <!--card img overlay-->
+                <div class="card-img-overlay d-flex flex-wrap flex-column justify-content-between mr-4">
+                    <!--creators details-->
+                    <div class="d-flex flex-wrap ">
+                        <!-- creator profile photo-->
+                        <div class="profilecreator border-dark bg-light rounded-circle mr-1"> </div>
+                        <!--creator name-->
+                        <input type="text" name="creator name" id="" value="creator name" class="creatorname text-light bg-transparent border-0">
+                    </div>
+                    <!--content details-->
+                    <div class="d-flex flex-wrap mt-auto justify-content-between">
+                        <!--topic of content-->
+                        <input type="text" value="topic of the video  " class="creatorname text-light border-0 bg-transparent">
+                        <!--tagged people-->
+                        <i class="material-icons icon ">person_outline</i>
+                        <!--surrounded sound-->
+                        <i class="material-icons icon ">surround_sound</i>
+                        <div class="d-flex flex-wrap justify-content-between w-100 ">
+                            <!--like-->
+                            <i class="material-icons icon">favorite_border</i>
+                            <!--comment-->
+                            <i class="material-icons icon">textsms</i>
+                            <!--view-->
+                            <i class="material-icons icon">remove_red_eye</i>
+                            <!--share-->
+                            <i class="material-icons icon">share</i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card img-fluid d-flex border-dark cardcontainer bg-secondary">
+                <!--card img overlay-->
+                <div class="card-img-overlay d-flex flex-wrap flex-column justify-content-between mr-4">
+                    <!--creators details-->
+                    <div class="d-flex flex-wrap ">
+                        <!-- creator profile photo-->
+                        <div class="profilecreator border-dark bg-light rounded-circle mr-1"> </div>
+                        <!--creator name-->
+                        <input type="text" name="creator name" id="" value="creator name" class="creatorname text-light bg-transparent border-0">
+                    </div>
+                    <!--content details-->
+                    <div class="d-flex flex-wrap mt-auto justify-content-between">
+                        <!--topic of content-->
+                        <input type="text" value="topic of the video  " class="creatorname text-light border-0 bg-transparent">
+                        <!--tagged people-->
+                        <i class="material-icons icon ">person_outline</i>
+                        <!--surrounded sound-->
+                        <i class="material-icons icon ">surround_sound</i>
+                        <div class="d-flex flex-wrap justify-content-between w-100 ">
+                            <!--like-->
+                            <i class="material-icons icon">favorite_border</i>
+                            <!--comment-->
+                            <i class="material-icons icon">textsms</i>
+                            <!--view-->
+                            <i class="material-icons icon">remove_red_eye</i>
+                            <!--share-->
+                            <i class="material-icons icon">share</i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!--footer-->
+    <footer class="headerinfo fixed-bottom  w-100 ">
+        <!--footer nav-->
+        <nav class="d-flex justify-content-between flex-wrap p-3">
+            <!--copyright-->
+            <div>copyrights&#169; 2021 LYKSTAGE</div>
+
+            <div>
+                <!--about-->
+                <a href="" class="mr-1 text-dark">About</a>
+                <!--terms & condition-->
+                <a href=" " class="mr-1 text-dark ">Terms and Condition</a>
+                <!--policy-->
+                <a href=" " class="mr-1  text-dark">policy</a>
+            </div>
+            <!--sponsored-->
+            <div>Powered by Social Gear</div>
+        </nav>
+
+    </footer>
+</body>
+
+</html>
